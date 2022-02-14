@@ -28,8 +28,8 @@ in a Field-Programmable Gate Array (FPGA).
 I OCR'd the Minnow Microcode from the PDF archive format obtained from bitsavers as described above.
 Most of the obvious translation mistakes have been cleaned up with a whole lot of hand editing.
 
-[partially edited microcode](https://github.com/KS10FPGA/Minnow/wiki/minnow_v1.mic)<br>
-[partially edited microcode](https://github.com/KS10FPGA/Minnow/wiki/minnow_v2.mic)
+[partially edited microcode](https://github.com/KS10FPGA/Minnow/blob/main/wiki/minnow_v1.mic)<br>
+[partially edited microcode](https://github.com/KS10FPGA/Minnow/blob/main/wiki/minnow_v2.mic)
 
 ## The MICRO2 Assembler
 
@@ -38,7 +38,7 @@ some of the PDP-11s, and some of the early VAXen.  As best as I can tell, this t
 systems.   If you have a copy please let me know.  I’d like to get a microcode baseline (at least)
 on a known working toolset.
 
-[My version of MICRO2 microcode assembler](https://github.com/KS10FPGA/Minnow/wiki/asm27.tgz)
+[My version of MICRO2 microcode assembler](https://github.com/KS10FPGA/Minnow/blob/main/wiki/asm27.tgz)
 
 ## VHDL RTL Code
 
