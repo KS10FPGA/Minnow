@@ -59,7 +59,6 @@ I don't remember much about the status of the VHDL code.  It is archived here.
 
 ## Minnow Processor Manual
 
-[Minnow Manual V7 (964K)]
-
-[The Problem with Minnow RD01 (147K)]
+[Minnow Manual V7 (964K)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/MinnowMan7.pdf)<br>
+[The Problem with Minnow RD01 (147K)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/The%20Problem%20with%20Minnow%20RD01.pdf)
 
