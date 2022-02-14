@@ -31,6 +31,13 @@ Most of the obvious translation mistakes have been cleaned up with a whole lot o
 [partially edited microcode](https://github.com/KS10FPGA/Minnow/blob/main/wiki/minnow_v1.mic)<br>
 [partially edited microcode](https://github.com/KS10FPGA/Minnow/blob/main/wiki/minnow_v2.mic)
 
+I think the first version of the microcode is an early translation.  I think the second version of
+the microcode has a bunch of fixes - it also has some intentional changes.  It looks like the intentional
+changes are related to me hating the assembler syntax with respect to octal constants.  It also looks
+like there were some changes to debug the assembler that were supposed to be removed eventially.
+
+I can't remember.
+
 ## The MICRO2 Assembler
 
 No working copy of the MICRO2.EXE microcode assembler is known to exist.  It was used on this PDP-10,
