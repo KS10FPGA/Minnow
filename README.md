@@ -56,3 +56,10 @@ The assembler was written using 'flex' and 'bison' as part of the parser.
 I don't remember much about the status of the VHDL code.  It is archived here.
 
 [Minnow VHDL (61 MB)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/vhdl.tgz)
+
+## Minnow Processor Manual
+
+[Minnow Manual V7 (964K)]
+
+[The Problem with Minnow RD01 (147K)]
+
