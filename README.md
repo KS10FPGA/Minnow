@@ -28,8 +28,8 @@ in a Field-Programmable Gate Array (FPGA).
 I OCR'd the Minnow Microcode from the PDF archive format obtained from bitsavers as described above.
 Most of the obvious translation mistakes have been cleaned up with a whole lot of hand editing.
 
-[partially_edited microcode](https://github.com/KS10FPGA/Minnow/minnow_v1.mic)
-[partially_edited microcode](https://github.com/KS10FPGA/Minnow/minnow_v2.mic)
+[partially_edited microcode](https://github.com/KS10FPGA/Minnow/wiki/minnow_v1.mic)
+[partially_edited microcode](https://github.com/KS10FPGA/Minnow/wiki/minnow_v2.mic)
 
 ## The MICRO2 Assembler
 
