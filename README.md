@@ -16,8 +16,6 @@ The PDP-10 Minnow was a program at DEC that was aimed at creating a mini-compute
 during development and was never completed.  It is not clear to me how close to a completed product this was.  It is also not clear to me whether
 the archived documentation was the most complete version of the documentation.
 
-I stopped working on this when I got concerned that this project may never work without a lot of work.
-
 ## What DEC Documentation of Minnow exists?
 
 Not much.  A barely readable [schematic](http://www.bitsavers.org/pdf/dec/pdp10/KT20_Minnow/minnow_Schems_1979.pdf) and [microcode listing](http://www.bitsavers.org/pdf/dec/pdp10/KT20_Minnow/minnow_uCodeSrc.pdf) has been archived on [bitsavers.org](http://www.bitsavers.org).
@@ -32,6 +30,18 @@ the various parts of the Minnow micro-architecture.
 
 When I first saw the Minnow micro-architecture, I knew it would be relatively straight-forward to re-implement the AMD bit-slice design
 in a Field-Programmable Gate Array (FPGA).
+
+## Why did I stop working on Minnow?
+
+A bunch of reasons.
+
+1. As I mentioned previously, it was a bigger project than I was prepared to tackle.
+2. I was concerned that this project as archived was incomplete and may never work without a lot of new design work.
+3. In the end I found the design was not very interesting.  The Minnow hardware is essentially a generic 12-bit processor
+   with a 36-bit ALU and 36-bit registers; with a layer microcode on top.  Because the micro-architecture doesn't really
+   resemble a PDP-10, every operation requires the micro-machine to execute a pile of micro-instructions to simulate the
+   PDP-10 processor.
+4. I decided that the KS10 was a better target.
 
 ## Machine readable Minnow Microcode
 
