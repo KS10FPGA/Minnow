@@ -1,8 +1,14 @@
 # PDP-10 KT20 Minnow
 
-In 2009, I started a to think about an FPGA-based implementation of the KT20 Minnow.  I spent some time on the  before I decided to move to something simpler.
+In 2009, I started a to think about an FPGA-based implementation of the KT20 Minnow.  This was my first attempt at a non-trivial VHDL
+project and I spent some time on this design before I decided to move to something simpler.  Eventually I created a PDP-8 in VHDL and
+then started the KS10 FPGA in Verilog.
 
-This repository was create to archive this information.
+This repository was created to archive this information.  Maybe someone will find it useful in the future.
+
+Regards,
+
+Rob Doyle (doyle at cox dot net)
 
 ## What was Minnow?
 
@@ -71,4 +77,6 @@ I don't remember much about the status of the VHDL code.  It is archived here.
 
 [Minnow Manual V7 (964K)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/MinnowMan7.pdf)<br>
 [The Problem with Minnow RD01 (147K)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/The%20Problem%20with%20Minnow%20RD01.pdf)
+
+
 
