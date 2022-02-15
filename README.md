@@ -10,6 +10,8 @@ The PDP-10 Minnow was a program at DEC that was aimed at creating a mini-compute
 during development and was never completed.  It is not clear to me how close to a completed product this was.  It is also not clear to me whether
 the archived documentation was the most complete version of the documentation.
 
+I stopped working on this when I got concerned that this project may never work without a lot of work.
+
 ## What DEC Documentation of Minnow exists?
 
 Not much.  A barely readable [schematic](http://www.bitsavers.org/pdf/dec/pdp10/KT20_Minnow/minnow_Schems_1979.pdf) and [microcode listing](http://www.bitsavers.org/pdf/dec/pdp10/KT20_Minnow/minnow_uCodeSrc.pdf) has been archived on [bitsavers.org](http://www.bitsavers.org).
@@ -49,7 +51,15 @@ on a known working toolset.
 
 The assembler was written using 'flex' and 'bison' as part of the parser.
 
+If I recall correctly, the assembler works by parsing the microcode, converting the MICRO2 macro syntax
+into regular expressions, and then repeatedly expanding regular expressions until the line of code is primitive.
+
 [My version of MICRO2 microcode assembler (2.6MB)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/asm27.tgz)
+
+It sorta worked.
+
+[Microcode listing file (1027KB)](https://raw.githubusercontent.com/KS10FPGA/Minnow/main/wiki/minnow.lst)<br>
+[Microcode VHDL ROM File (310KB)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/minnow.vhd)
 
 ## VHDL RTL Code
 
