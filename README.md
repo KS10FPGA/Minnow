@@ -12,9 +12,12 @@ Rob Doyle (doyle at cox dot net)
 
 ## What was Minnow?
 
-The PDP-10 Minnow was a program at DEC that was aimed at creating a mini-computer (desktop?) sized version of the PDP-10.  Minnow was cancelled
-during development and was never completed.  It is not clear to me how close to a completed product this was.  It is also not clear to me whether
-the archived documentation was the most complete version of the documentation.
+The PDP-10 Minnow was a program at DEC that was aimed at creating a desktop or deskside version of the popular PDP-10.  Minnow was cancelled
+during development and was never completed.  It is not clear to me how close to a completed product this was.  Various people (who would know...)
+have reported status on the project.  Dan Murphy (dlm) claimed that he ported TOPS-20 to it and it ran well enough to "demonstrate some exec
+mode programs".  See [this post](https://hack.org/mc/retro-computing/texts/minnow.txt) for details.  David Lyons claimed he ported ITS to the Minnow.
+
+It is not clear if the archived documentation was the most complete version of the documentation.
 
 ## What DEC Documentation of Minnow exists?
 
