@@ -63,15 +63,23 @@ I can't remember.
 
 ## The MICRO2 Assembler
 
-No working copy of the MICRO2.EXE microcode assembler is known to exist.  It was used on this PDP-10,
+<b>UPDATE (2 March 2022):</b> After looking for the MICRO2.EXE microcode assembler for a well more than a decade, Larsb
+found a copy hiding in plain sight - in the obvious place.
+
+See [http://simh.trailing-edge.com/semi/ucode_tools.html](http://simh.trailing-edge.com/semi/ucode_tools.html)
+
+I haven't tried to compile the minnow microcode with this tool.
+
+<del>No working copy of the MICRO2.EXE microcode assembler is known to exist.  It was used on this PDP-10,
 some of the PDP-11s, and some of the early VAXen.  As best as I can tell, this tool was hosted on VAX
 systems.   If you have a copy please let me know.  I’d like to get a microcode baseline (at least)
-on a known working toolset.
+on a known working toolset.</del>
 
-The assembler was written using 'flex' and 'bison' as part of the parser.
+My version of the MICRO2.EXE microcode assembler was written using 'flex' and 'bison'.
 
-If I recall correctly, the assembler works by parsing the microcode, converting the MICRO2 macro syntax
-into regular expressions, and then repeatedly expanding regular expressions until the line of code is primitive.
+If I recall correctly, the assembler works by parsing the microcode, translating the MICRO2 macro syntax
+into unix regular expressions, and then repeatedly expanding the regular expressions until the line of code
+is primitive.
 
 [My version of MICRO2 microcode assembler (2.6MB)](https://github.com/KS10FPGA/Minnow/blob/main/wiki/asm27.tgz)
 
